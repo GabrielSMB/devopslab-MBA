@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def pagina_inicial():
-    return "Tudo funcionando aqui..."
+    return "Build and Run done"
 
 if __name__ == '__main__':
     app.run()
